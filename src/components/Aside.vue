@@ -90,6 +90,8 @@ export default {
       console.log(key, keyPath)
     },
     sentMenu(item) {
+      this.$router.push({ path: item.path })
+      // 实现路由的跳转
       this.$store.commit('updateValue', item)
     }
   }

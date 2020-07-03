@@ -2,7 +2,7 @@
 <template>
   <div class="fatherBox">
     <div class="leftBox">
-      <el-button type="primary" icon="el-icon-s-grid" size="mini"></el-button>
+      <el-button plain icon="el-icon-s-grid" size="mini"></el-button>
       <el-breadcrumb separator="/" class="breadNav">
         <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
         <el-breadcrumb-item>

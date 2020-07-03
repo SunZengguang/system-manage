@@ -6,7 +6,25 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    component: () => import('../views/Layout.vue')
+    component: () => import('../views/Layout.vue'),
+    children: [
+      {
+        path: '/video',
+        component: () => import('../components/VideoManage.vue')
+      },
+      {
+        path: '/user',
+        component: () => import('../components/UserManage.vue')
+      },
+      {
+        path: '/func1',
+        component: () => import('../components/Fun1.vue')
+      },
+      {
+        path: '/func2',
+        component: () => import('../components/Fun2.vue')
+      }
+    ]
   }
 ]
 
