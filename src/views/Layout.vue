@@ -35,4 +35,7 @@ export default {
 .el-container {
   height: 100%;
 }
+.el-header {
+  background-color: $theme-color;
+}
 </style>

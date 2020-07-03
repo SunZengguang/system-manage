@@ -15,8 +15,8 @@ module.exports = {
       {
         semi: false,
         singleQuote: true,
-        printWidth: 160,
-        "endOfLine": "auto"
+        printWidth: 100,
+        endOfLine: 'auto'
         // 字数长于160的时候，代码换行
       }
     ]
